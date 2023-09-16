@@ -412,7 +412,7 @@ The system must dynamically choose to reduce certain features or functionalities
 
 ## <a name="_toc145782602"></a>**IX. ADRs**
 
-<a name="_toc145782603"></a>ADR 1: Microservices Architecture
+### <a name="_toc145782603"></a>ADR 1: Microservices Architecture
 **Motivation**
 The foundation of microservices lies in decentralized, independently deployable services that communicate through well-defined APIs. 
 Each service is small, focused, and responsible for a specific business capability. This architecture promotes scalability, 
@@ -429,7 +429,7 @@ to changing requirements.
 **Consequences**
 Adds complexity of managing multiple services along with Data replication.
 
-` `<a name="_toc145782604"></a>ADR 2: AWS
+### <a name="_toc145782604"></a>ADR 2: AWS
 **Motivation**
 Amazon Web Services, is a comprehensive and widely used cloud computing platform. It offers a broad range of cloud services and solutions that enable
 businesses and individuals to build, deploy, and manage various applications and workloads in a flexible, scalable, 
