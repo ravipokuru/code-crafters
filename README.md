@@ -13,41 +13,41 @@
 
 [IV. Use Cases](#_toc145782588)
 
-    [Customer Dashboard Journey](#_toc145782589)
+- [Customer Dashboard Journey](#_toc145782589)
 
 [V. Architectural Characteristics](#_toc145782590)
 
 [VI. High-Level Architecture](#_toc145782591)
 
-[Architecture Approach](#_toc145782592)
+- [Architecture Approach](#_toc145782592)
 
-[Component Diagram](#_toc145782593)
+- [Component Diagram](#_toc145782593)
 
-[Services](#_toc145782594)
+- [Services](#_toc145782594)
 
 [VII. Mid-Level Architecture	](#_toc145782595)
 
-[Publisher/Subscriber	](#_toc145782596)
+- [Publisher/Subscriber	](#_toc145782596)
 
-[API Layer	](#_toc145782597)
+- [API Layer	](#_toc145782597)
 
-[Social Media API Manager	](#_toc145782598)
+- [Social Media API Manager	](#_toc145782598)
 
-[Notification systems	](#_toc145782599)
+- [Notification systems	](#_toc145782599)
 
 [VIII. Evaluation, Risks and Architecture Fitness	](#_toc145782600)
 
-[Failure Operations](#_toc145782601)
+- [Failure Operations](#_toc145782601)
 
 [IX. ADRs	](#_toc145782602)
 
-[ADR 1: Microservices Architecture	](#_toc145782603)
+- [ADR 1: Microservices Architecture	](#_toc145782603)
 
-[ADR 2: AWS	](#_toc145782604)
+- [ADR 2: AWS	](#_toc145782604)
 
-[ADR 3: Serverless	](#_toc145782605)
+- [ADR 3: Serverless	](#_toc145782605)
 
-[ADR 4: Kafka Distributed Services ](#_toc145782606)
+- [ADR 4: Kafka Distributed Services ](#_toc145782606)
 
 
 ##
