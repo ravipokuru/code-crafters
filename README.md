@@ -5,11 +5,11 @@
 
 [III. Goals and Opportunities](#_toc145782584)
 
-[Immediate Business Goals](#_toc145782585)
+  [Immediate Business Goals](#_toc145782585)
 
-[Long-Term Business Goals](#_toc145782586)
+  [Long-Term Business Goals](#_toc145782586)
 
-[Business opportunity](#_toc145782587)
+  [Business opportunity](#_toc145782587)
 
 [IV. Use Cases](#_toc145782588)
 
