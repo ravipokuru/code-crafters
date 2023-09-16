@@ -314,7 +314,7 @@ For trip registration there are below 2 approaches-
 
 **TripDashboardPopulator**
 
-It populates the up-comings trips data for Dashboard and support group by feature. These are subscribed to any changes happening by TripAmender for dynamic refresh. 
+It populates the up-comings trips data for Dashboard and support group by feature. These are subscribed to any changes happening by TripObserver for dynamic refresh. 
 
 
 
