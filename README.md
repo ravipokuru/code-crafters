@@ -239,8 +239,6 @@ Break down the application into smaller, loosely coupled services that handle sp
 
 User Management: Handles user authentication, profiles, and preferences.
 
-Search and Booking: Manages the search functionality for flights, hotels, car rentals, etc., and facilitates bookings.
-
 Integration Services: These services connect to external APIs and data sources, aggregating information like flight schedules, hotel availability, and pricing.
 
 2) **API Gateway:**
@@ -249,7 +247,7 @@ Implement an API gateway that serves as the entry point for client applications.
 
 3) **Asynchronous Communication:**
 
-Use message queues (e.g., RabbitMQ, Apache Kafka) for asynchronous communication between microservices. This is especially useful for handling tasks like sending confirmation emails, processing background jobs, or updating availability data.
+Use message queues (e.g., RabbitMQ, Apache Kafka) for asynchronous communication of travel updates. 
 
 4) **Data Storage:**
 
@@ -302,6 +300,7 @@ Event-driven architecture primarily revolves around message-based asynchronous c
 #### *Serverless Architecture:*
 
 Serverless architectures primarily involve stateless microservices. These microservices can operate effectively within a serverless environment, provided that the services are containerized and designed as stateless applications.
+![](img.015.png)
 
 ### <a name="_toc145782593"></a>Component Diagram:
 ![](img.004.jpeg)
@@ -399,6 +398,18 @@ The third-party services are not reachable. It must have circuit breaker impleme
 Circuit breaker:
 
 ![](img.010.png)
+
+Timeout:
+
+![](img.013.png)
+
+Retry:
+
+![](img.014.png)
+
+Bulk Head:
+
+![](img.012.png)
 
 #### *Overloading 3<sup>rd</sup> party systems:*
 To avoid bombarding the third party services. System must implement rate limiter, to limit the number of requests a service can poll in a particular time window. This protects from ddos attack.
