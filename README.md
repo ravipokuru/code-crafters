@@ -100,7 +100,7 @@ This business opportunity aims to transform the way individuals and businesses m
 
 **Registration Flow**
 
-- User should register for the Dashboard application access, for this user must validate the email address using OTP based approach. 
+- User should register for the Road Warrior application access, by using social login.
 - 2 ways of accessing Dashboard-
 - **First Way**: Default Access, it requires no consent from user to scan the user email. Here, forwarding of trip to Road Warrior is required or user need to add trip manually in Dashboard.
 - **Second Way**: User Consent, having the control to scan the user’s email. 
@@ -109,10 +109,10 @@ This business opportunity aims to transform the way individuals and businesses m
 
 - User login to Dashboard with their registered email.
 - User can view the Dashboard landing screen with all reservations for his future planned trips
-- User can view the reservations grouped by trip
+- User can group the reservations by trip
 - Users have option to tailor reservations i.e., add, update & delete the reservations.
 - On tailoring the reservation, user needs to save the information
-- As soon updated information is saved TripAmender is called to persists the data.
+- As soon as updated information is saved, TripAmender is called to persists the data.
 - Update events are captured by TripEventTracker, all manual updates are sent for reporting and analytics. 
 
 
@@ -130,7 +130,7 @@ This business opportunity aims to transform the way individuals and businesses m
 - User login to Dashboard with their registered email.
 - User can view the Dashboard landing screen with all reservations for his future planned trips
 - Share any trip on Social Media Platforms
-- Share any trip with targeted people for viewing trips.
+- Share any trip with targeted people.
 
 **Reporting**
 
