@@ -314,7 +314,7 @@ For trip registration there are below 2 approaches-
 
 **TripDashboardPopulator**
 
-It populates the up-comings trips data for Dashboard and support group by feature. These are subscribed to any changes happening by TripObserver for dynamic refresh. 
+It populates the up-comings trips data for Dashboard and support group by feature. These are subscribed to any changes happening by TripEventObserver for dynamic refresh. 
 
 
 
@@ -324,7 +324,7 @@ It integrates with different systems and polls them-
 
 **Poll**—
 
-- Road Warrior/Client Email
+- Road Warrior Mailbox/Client Email
 - Sabre/Apollo Reservation Systems
 - Road Warrior API’s (access vendors publicly available API)
 
@@ -346,11 +346,11 @@ Tracking all the events of update, cancellation, delays happening in a trip (aud
 
 It is virtual Trip Assistant available in form of Chatbot, will interact with user and provide variants of solutions crafted for problems related to user trip.
 
-Chatbot will be enabled will routing features and will be built on top of Open AI/ML model.
+Chatbot will be enabled with routing features and will be built on top of Open AI/ML model.
 
 **TripReportGenerator**
 
-- It generates the year to summarize their whole year trips with wide range of metrics. It can be scheduled or be generated adhoc.
+- It generates the reports to summarize their whole year trips with wide range of metrics. It can be scheduled or be generated adhoc.
  
 
 
