@@ -365,15 +365,15 @@ Apparently, processed data is sent to subscriber which is eventually persisted i
 
 We can scale publisher, processor and subscribers depending upon the need.
 
-### <a name="_toc145782597"></a>[API Layer]
+### <a name="_toc145782597"></a>API Layer
 Next, we add an API layer to extract the publicly accessible interface of the system. Instead of external users directly connecting to the individual services via a GUI, all external requests will be routed through the API layer.
 
 `            `![](img.006.png)
 
-Reporting & Analytics:
+### <a name="_toc145782597"></a>Reporting & Analytics:
 
 ![](img.007.png)
-### <a name="_toc145782598"></a>[Social Media API Manager]
+### <a name="_toc145782598"></a>Social Media API Manager
 
 ![](img.008.png)
 ### <a name="_toc145782599"></a>Notification systems
