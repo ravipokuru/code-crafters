@@ -243,55 +243,55 @@ Search and Booking: Manages the search functionality for flights, hotels, car re
 
 Integration Services: These services connect to external APIs and data sources, aggregating information like flight schedules, hotel availability, and pricing.
 
-1) **API Gateway:**
+2) **API Gateway:**
 
 Implement an API gateway that serves as the entry point for client applications. It can handle authentication, routing requests to the appropriate microservices, load balancing, and caching to improve performance.
 
-1) **Asynchronous Communication:**
+3) **Asynchronous Communication:**
 
 Use message queues (e.g., RabbitMQ, Apache Kafka) for asynchronous communication between microservices. This is especially useful for handling tasks like sending confirmation emails, processing background jobs, or updating availability data.
 
-1) **Data Storage:**
+4) **Data Storage:**
 
 Consider using different databases for each microservice based on the specific needs. For example, you might use a relational database for user management, a NoSQL database for content management, and a specialized data store for search and booking data.
 
-1) **Containerization and Orchestration:**
+5) **Containerization and Orchestration:**
 
 Containerize each microservice using technologies like Docker. Employ a container orchestration platform such as Kubernetes to manage and scale containers automatically.
 
-1) **Monitoring and Logging:**
+6) **Monitoring and Logging:**
 
 Implement comprehensive monitoring and logging across all microservices to gain insights into the system's health, performance, and user behavior. Tools like Prometheus, Grafana, and ELK stack can be helpful.
 
-1) **Authentication and Authorization:**
+7) **Authentication and Authorization:**
 
 Implement a centralized authentication and authorization system, possibly using OAuth2 or JWT, to secure your microservices. Ensure that only authorized users can access sensitive data and perform critical actions.
 
-1) **Fault Tolerance and Resilience:**
+8) **Fault Tolerance and Resilience:**
 
 Implement resilience patterns like circuit breakers, retries, and timeouts to handle failures gracefully. Distributed tracing tools can help identify and troubleshoot issues in a microservices environment.
 
-1) **Testing and Deployment:**
+9) **Testing and Deployment:**
 
 Adopt a continuous integration/continuous deployment (CI/CD) pipeline to automate testing and deployment of microservices. Each service should have its own testing suite and version control.
 
-1) **Scalability:**
+10) **Scalability:**
 
 Design your microservices to be horizontally scalable. You should be able to add or remove instances of a service as needed to handle varying loads.
 
-1) **Documentation and Communication:**
+11) **Documentation and Communication:**
 
 Maintain clear and up-to-date documentation for each microservice's API. Promote effective communication and collaboration among development teams working on different microservices.
 
-1) **Security:**
+12) **Security:**
 
 Pay special attention to security, including data encryption, access controls, and API rate limiting to protect against potential threats.
 
-1) **Performance Optimization:**
+13) **Performance Optimization:**
 
 Continuously monitor and optimize the performance of your microservices, considering techniques like caching and content delivery networks (CDNs) for static assets.
 
-1) **Compliance:**
+14) **Compliance:**
 
 Ensure compliance with data privacy regulations such as GDPR or HIPAA, depending on your target markets and the type of data you handle.
 
@@ -299,9 +299,9 @@ Ensure compliance with data privacy regulations such as GDPR or HIPAA, depending
 
 Event-driven architecture primarily revolves around message-based asynchronous communication among various components within a system. It's important to note that the adoption of microservices doesn't preclude us from employing a combination of both synchronous and asynchronous components and communication methods within a single service.
 
-#### *Serverless:*
+#### *Serverless Architecture:*
 
-serverless architectures primarily involve stateless microservices. These microservices can operate effectively within a serverless environment, provided that the services are containerized and designed as stateless applications.
+Serverless architectures primarily involve stateless microservices. These microservices can operate effectively within a serverless environment, provided that the services are containerized and designed as stateless applications.
 
 ### <a name="_toc145782593"></a>Component Diagram:
 ![](img.004.jpeg)
