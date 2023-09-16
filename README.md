@@ -418,7 +418,7 @@ The foundation of microservices lies in decentralized, independently deployable 
 Each service is small, focused, and responsible for a specific business capability. This architecture promotes scalability, 
 flexibility, and resilience while enabling continuous delivery and a polyglot technology stack.
 
-` `**Decision**
+**Decision**
 We will use the Microservices architecture to model the Road Warriors! system
 
 **Rationale**
@@ -449,11 +449,11 @@ Complex Pricing
 Learning Curve
 Compliance Challenges
 ### <a name="_toc145782605"></a>ADR 3: Serverless
-` `**Motivation**
+**Motivation**
 It is a cloud computing model where cloud providers dynamically manage the allocation and provisioning of servers to run applications and services. 
 In a serverless architecture, developers focus on writing code for specific functions or services without having to worry about the underlying infrastructure.
 
-` `**Decision**
+**Decision**
 We will use the Serverless computing model to design the Road Warriors! system
 
 **Rationale:**
