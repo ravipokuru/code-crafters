@@ -206,7 +206,7 @@ Sabre GDS is an efficient, pre-built system that links numerous suppliers, inclu
 
 
 ## <a name="_toc145782591"></a>**VI. High-Level Architecture**
-Over**view of the key components and their interactions in Road-Warrior system:**
+Over view of the key components and their interactions in Road-Warrior system:
 
 ![](img.002.png)
 
