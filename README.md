@@ -1,53 +1,53 @@
 ﻿# Contents
-[I. Overview	2](#_toc145782582)
+[I. Overview](#_toc145782582)
 
-[II. Vision	2](#_toc145782583)
+[II. Vision](#_toc145782583)
 
-[III. Goals and Opportunities	2](#_toc145782584)
+[III. Goals and Opportunities](#_toc145782584)
 
-[Immediate Business Goals:	2](#_toc145782585)
+[Immediate Business Goals](#_toc145782585)
 
-[Long-Term Business Goals:	3](#_toc145782586)
+[Long-Term Business Goals](#_toc145782586)
 
-[Business opportunity	3](#_toc145782587)
+[Business opportunity](#_toc145782587)
 
-[IV. Use Cases	4](#_toc145782588)
+[IV. Use Cases](#_toc145782588)
 
-[Customer Dashboard Journey	4](#_toc145782589)
+[Customer Dashboard Journey](#_toc145782589)
 
-[V. Architectural Characteristics	6](#_toc145782590)
+[V. Architectural Characteristics](#_toc145782590)
 
-[VI. High-Level Architecture	9](#_toc145782591)
+[VI. High-Level Architecture](#_toc145782591)
 
-[Architecture Approach	10](#_toc145782592)
+[Architecture Approach](#_toc145782592)
 
-[Component Diagram:	13](#_toc145782593)
+[Component Diagram](#_toc145782593)
 
-[Services:	13](#_toc145782594)
+[Services](#_toc145782594)
 
-[VII. Mid-Level Architecture	15](#_toc145782595)
+[VII. Mid-Level Architecture	](#_toc145782595)
 
-[Publisher/Subscriber	15](#_toc145782596)
+[Publisher/Subscriber	](#_toc145782596)
 
-[API Layer	15](#_toc145782597)
+[API Layer	](#_toc145782597)
 
-[Social Media API Manager	16](#_toc145782598)
+[Social Media API Manager	](#_toc145782598)
 
-[Notification systems	16](#_toc145782599)
+[Notification systems	](#_toc145782599)
 
-[VIII. Evaluation, Risks and Architecture Fitness	17](#_toc145782600)
+[VIII. Evaluation, Risks and Architecture Fitness	](#_toc145782600)
 
-[Failure Operations:	17](#_toc145782601)
+[Failure Operations](#_toc145782601)
 
-[IX. ADRs	19](#_toc145782602)
+[IX. ADRs	](#_toc145782602)
 
-[ADR 1: Microservices Architecture	19](#_toc145782603)
+[ADR 1: Microservices Architecture	](#_toc145782603)
 
-[ADR 2: AWS	19](#_toc145782604)
+[ADR 2: AWS	](#_toc145782604)
 
-[ADR 3: Serverless	20](#_toc145782605)
+[ADR 3: Serverless	](#_toc145782605)
 
-[ADR 4: Kafka Distributed Services:	20](#_toc145782606)
+[ADR 4: Kafka Distributed Services ](#_toc145782606)
 
 
 ##
