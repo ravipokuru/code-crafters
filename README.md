@@ -5,7 +5,6 @@ Bramhchariya, Ujjwal
 # Prasad, Thiragabathina
 # Singh, Kamal Deep
 # Swaroop, Abhigyan
-# Thakur, Amitava
 
 
 
