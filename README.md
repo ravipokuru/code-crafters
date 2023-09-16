@@ -490,8 +490,8 @@ Reliability: Kafka provides durability and fault tolerance, ensuring that data i
 
 **Consequences**
 
-`	`Requires ongoing maintenance and monitoring.
+Requires ongoing maintenance and monitoring.
 
-`	`Security audits have to be performed to avoid data breaches.
+Security audits have to be performed to avoid data breaches.
 
 
