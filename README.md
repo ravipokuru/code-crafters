@@ -365,7 +365,7 @@ Apparently, processed data is sent to subscriber which is eventually persisted i
 
 We can scale publisher, processor and subscribers depending upon the need.
 
-### <a name="_toc145782597"></a>[API Layer](https://github.com/mynksnh/ArchKatas2022#api-layer)
+### <a name="_toc145782597"></a>[API Layer]
 Next, we add an API layer to extract the publicly accessible interface of the system. Instead of external users directly connecting to the individual services via a GUI, all external requests will be routed through the API layer.
 
 `            `![](img.006.png)
@@ -373,13 +373,13 @@ Next, we add an API layer to extract the publicly accessible interface of the sy
 Reporting & Analytics:
 
 ![](img.007.png)
-### <a name="_toc145782598"></a>[Social Media API Manager](https://github.com/mynksnh/ArchKatas2022#social-media-api-manager)
+### <a name="_toc145782598"></a>[Social Media API Manager]
 
 ![](img.008.png)
 ### <a name="_toc145782599"></a>Notification systems
 ![](img.009.png)
 ##
-## <a name="_toc145782600"></a>**VIII. [Evaluation, Risks and Architecture Fitness](https://github.com/mynksnh/ArchKatas2022#evaluation-risks-and-architecture-fitness)** 
+## <a name="_toc145782600"></a>**VIII. [Evaluation, Risks and Architecture Fitness]** 
 This final section is a discussion of how the proposed architecture adheres to the initially chosen driving characteristics, the associated trade-offs, and risks. It highlights the areas that must continuously be tested and evaluated against benchmarks through fitness functions, ideally as part of the CI/CD pipeline.
 
 *Evaluating the architecture against driving characteristics*
